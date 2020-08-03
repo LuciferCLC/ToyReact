@@ -1,0 +1,13 @@
+{
+  "name": "ToyReact",
+  "version": "1.0.0",
+  "description": "toy-react",
+  "main": "main.js",
+  "repository": "https://github.com/LuciferCLC/ToyReact.git",
+  "author": "Nolan <luciferclc@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
