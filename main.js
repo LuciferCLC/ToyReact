@@ -1,12 +1,17 @@
-import { ToyReact } from './ToyReact'
+import { ToyReact, Component } from './ToyReact'
 
-const a = (
-  <MyComponent name="a" id="ida">
-    <span>Hello</span>
-    <span> World</span>
-    <span> Nolan</span>
-  </MyComponent>
-)
+class MyComponent extends Component {
+  render() {
+    return (
+      <div>
+        <span>Hello</span>
+        <span> World!</span>
+      </div>
+    );
+  }
+}
+
+const a = <MyComponent name="a" id="ida"></MyComponent>
 
 window.onload = () => {
   ToyReact.render(
